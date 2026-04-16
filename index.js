@@ -19,6 +19,16 @@ const limiter = rateLimit({
 
 app.use(limiter);
 
+app.get('/', (req, res) => {
+  res.json({
+    service: 'Quick-Calls-as-a-Service',
+    endpoints: {
+      single: 'GET /quick-call',
+      batch: 'GET /quick-calls?count=3'
+    }
+  });
+});
+
 // Returns a random quick call request phrase
 app.get('/quick-call', (req, res) => {
   const phrase = phrases[Math.floor(Math.random() * phrases.length)];
