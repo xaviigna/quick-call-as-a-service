@@ -1,0 +1,16 @@
+{
+  "name": "quick-calls-as-a-service",
+  "version": "1.0.0",
+  "description": "An API that returns random ways to ask someone to hop on a quick call. Inspired by the LinkedIn humor of j-hawkins.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Xavier Benavides",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.0.0"
+  }
+}
