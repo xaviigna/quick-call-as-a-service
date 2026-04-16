@@ -55,8 +55,8 @@ Want to run it yourself? It's lightweight and simple.
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/xaviigna/quick-calls-as-a-service.git
-cd quick-calls-as-a-service
+git clone https://github.com/xaviigna/quick-call-as-a-service.git
+cd quick-call-as-a-service
 ```
 
 ### 2. Install dependencies
