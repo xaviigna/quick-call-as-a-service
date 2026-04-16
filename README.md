@@ -11,7 +11,7 @@ Built for humans, calendars, and the eternal 5-minute call that takes 47 minutes
 
 **Base URL**
 ```
-https://xaviigna.com/quick-call
+api.xaviigna.com/quick-call
 ```
 
 **Method:** `GET`  
